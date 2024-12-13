@@ -47,7 +47,7 @@ pipeline {
         }
         always {
             echo 'Cleaning up workspace...'
-            cleanWs() // Cleans up the workspace
+            //cleanWs() Cleans up the workspace
         }
     }
 }
